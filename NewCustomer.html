@@ -5,13 +5,35 @@
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    <form>
-        <h1>New customer</h1>
-        <label for ="fname">First name :</label>
-        <input type="text" id="fname" name="fname">&ensp;
-        <label for ="lname">Last name :</label>
-        <input type="text" id="lname" name="lname"> <br>
-        
-    </form>
+    <div>
+        <form class="newcustomer">
+            <h1>New customer</h1>
+            <label for ="cid">ID:</label>
+            <input type="text" id="cid" name="cid"><br><br>
+            <label for ="fname">First name :</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for ="lname">Last name :</label><br>
+            <input type="text" id="lname" name="lname"> <br>
+            <p><b><u>Other details of the customer</u> </b></p>
+            <label for="male">Gender :&emsp; Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br><br>
+            
+            <label for ="dateofbirth">Date of birth :</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="accounttype">Type of account:</label><br>
+            <input type="date" id="dateofbirth" name="dateofbirth">
+            
+            <select id="accounttype" name="accounttype">
+                <option value="ca">CA</option>
+                <option value="sa">SA</option>
+                <option value="fd">FD</option>
+            </select><br>
+            <label for ="pno">Phone no:</label><br>
+            <input type="text" id="pno" name="pno"> <br>
+            <label for ="address">Address :</label><br>
+            <input type="text" id="address" name="address"><br>
+        </form>
+    </div>
 </body>
 </html>
