@@ -1,16 +1,23 @@
 
 h1
 {
-margin: 0.5%;
-color:rgb(22, 159, 223);
+font-size: 35px;    
+margin-top: 0px;
+color:rgb(10, 96, 146);
 text-align:center;
-background-color: white;
+background-color: rgb(179, 169, 169);
+}
+.tab180 
+{
+    display: inline-block;
+    margin-left: 180px;
 }
 .newcustomer
 {
     /*background-color: teal*/
     box-shadow: dodgerblue;
-    margin: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
 }
 input[type=text] {
     width: 60%;
