@@ -8,43 +8,61 @@
     <link rel="stylesheet" href="site.css">
 </head>
 <body>
+    <header>
+        <h1>New Customer</h1>
+    </header>
+    <form class="NewCustomer">
     <form action =""method="post">
-    <lable for="Id">CustomerId</lable>
-    <input type="text" name="Id"id="Id">
-    <lable for="Fname">First Name</lable>
-    <input type="text" name="Fname"id="Fname">
-    <lable for="Mname">Middle Name</lable>
-    <input type="text" name="Mname"id="Mname">
-    <lable for="Lname">Last Name</lable>
-    <input type="text" name="Lname"id="Lname">
+    <lable for="Customer_Id">Customer Id</lable><br>
+    <input type="text" name="Customer_Id"id="CId"><br><br>
+
+    <lable for="Fname">First Name </lable><br>
+    <input type="text" name="Fname"id="Fname"><br><br>
+
+    <lable for="Mname">Middle Name </lable><br>
+    <input type="text" name="Mname"id="Mname"><br><br>
+
+    <lable for="Lname">Last Name</lable><br>
+    <input type="text" name="Lname"id="Lname"><br><br>
 
     <!--for Radio Button -->
-    <label for="Gender">gender</label> 
+    <label for="Gender">Gender </label> 
     <input type="radio" id="male" name="gender" value="male">
-    <lable for="Birthday">DOB</lable>
-    <input type="date" id="birthday" name="birthday">
-
     <label for="male">Male</label>
     <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label>
+    <label for="female">Female</label><br><br>
 
-    <lable for="Number">Mobile No.</lable>
-    <input type="text" name="number"id="Number">
-    <lable for="id">Email</lable>
-    <input type="text" name="id"id="id">
-    <lable for="location">Street</lable>
-    <input type="text" name="Location"id="Location">
-    <lable for="Address">Village/Town</lable>
-    <input type="text" name="Address"id="Address">
+    <lable for="Birthday">Date of birth</lable><br>
+    <input type="date" id="birthday" name="birthday"><br><br>
 
-    <lable for="state">State</lable>
+    <lable for="Number">Phone Nomber </lable><br>
+    <input type="text" name="number"id="Number"><br><br>
 
-    <lable for="code">PIN code</lable>
-    <input type="text" name="code"id="code">
-    <input type="submit" value="Submit">
-    <input type="Reset" value="Reset">
-    <input type="Close" value="Close">
-     
+    <lable for="id">Email</lable><br>
+    <input type="text" name="id"id="id"><br><br>
+
+    <lable for="location">Street</lable><br>
+    <input type="text" name="Location"id="Location"><br><br>
+
+    <lable for="Address">Village/Town</lable><br>
+    <input type="text" name="Address"id="Address"><br><br>
+
+    <lable for="states">State </lable> <br>
+    <select name="states" id="state">
+      <option value="bihar">Bihar</option>
+      <option value="Nepal">Nepal</option>
+      <option value="Panjab">Panjab</option>
+      <option value="Delhi">Delhi</option>
+      <option value="Bangalore">Bangalore</option>
+    </select><br><br>
+    
+    <lable for="code">PIN code </lable><br>
+    <input type="text" name="code"id="code"><br><br>
+    </form>
+    <!--for button -->
+    
+    <button class= submit type="button" value="Submit"> Submit</button>
+     <button class= Reset type="button" value="Reset">Reset</button>
 
     
 
