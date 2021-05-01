@@ -1,0 +1,37 @@
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+td.sectionhead {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+td.sectionlabel {
+    text-align: right;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin: 6px;
+}
+.col-75 {
+    width: 75%;
+    margin: 6px;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
