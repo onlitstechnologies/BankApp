@@ -27,11 +27,12 @@ input[type=date] {
     margin: 2px 0;
     box-sizing: border-box;
 }
-span.birthday
+/*span.birthday
 {
     display: inline-block;
     margin-left: 160px;
 }
+*/
   #Number
 {
     width: 20%; 
